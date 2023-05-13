@@ -46,8 +46,7 @@ h4 {
 
 h1:hover {
   color: #d0ddcb;
-  transition: 0.25s;
-  transition-timing-function: ease-in-out;
+  transition: 0.25s ease-out;
 }
 
 .btn-branding:hover {
