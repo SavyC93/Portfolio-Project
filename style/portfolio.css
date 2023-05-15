@@ -2,6 +2,8 @@
   --main-bg-color: #f3faf0;
   --heading-color: #d0ddcb;
   --main-font-family: "poppins", sans-serif;
+  --secondary-font-family: Cambria, Cochin, Georgia, Times, "Times New Roman",
+    serif;
   --main-btn-color: #d0ddcb;
   --main-font-color: #56734b;
 }
@@ -23,7 +25,7 @@ h6 {
 }
 
 h1 {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: var(--secondary-font-family);
   font-weight: bold;
   color: var(--main-font-color);
   font-size: 50px;
@@ -33,11 +35,18 @@ h2 {
   font-size: 20px;
 }
 
+h3 {
+  font-family: var(--secondary-font-family);
+  font-size: 30px;
+  font-weight: 600;
+}
+
 h4 {
   font-size: 20px;
 }
 
-.btn-branding {
+.btn-branding,
+.btn-branding-outline {
   background-color: var(--main-btn-color);
   color: black;
   font-size: 15px;
@@ -49,7 +58,39 @@ h1:hover {
   transition: 0.25s ease-out;
 }
 
-.btn-branding:hover {
+.btn-branding:hover,
+.btn-branding-outline:hover {
   background-color: var(--main-font-color);
   color: white;
+}
+
+.quote {
+  font-family: var(--secondary-font-family);
+  color: var(--main-font-color);
+  font-size: 32px;
+  font-weight: 300;
+}
+
+img {
+  padding: 40px 40px;
+  background-color: #f3faf0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+a {
+  text-align: center;
+}
+
+.project-description {
+  padding: 80px 60px;
+}
+
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0 10px;
+    text-align: center;
+  }
+  .quote {
+    font-size: 16px;
+  }
 }
