@@ -102,6 +102,20 @@ a {
   padding: 80px 60px;
 }
 
+.page-title {
+  color: var(--main-font-color);
+}
+
+.page-title,
+.work-paragraph {
+  padding: 80px 10px;
+}
+
+.work-pages:hover {
+  background-color: var(--heading-color);
+  transition: 0.25s ease-in-out;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0 10px;
@@ -127,5 +141,10 @@ a {
 
   .about-me-paragraph {
     margin: 40px 20px;
+  }
+
+  .page-title {
+    padding: 20px 10px;
+    text-decoration: underline;
   }
 }
