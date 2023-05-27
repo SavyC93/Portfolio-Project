@@ -129,6 +129,10 @@ a {
   padding: 100px 0px;
 }
 
+.link-word {
+  color: var(--main-font-color);
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0 10px;
