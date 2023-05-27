@@ -125,6 +125,10 @@ a {
   transition: 0.25s ease-in-out;
 }
 
+.contact-title {
+  padding: 100px 0px;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0 10px;
@@ -155,5 +159,12 @@ a {
   .page-title {
     padding: 20px 10px;
     text-decoration: underline;
+  }
+  .contact-title {
+    padding: 70px 0px;
+  }
+
+  .contact-links {
+    padding: 50px 0px;
   }
 }
