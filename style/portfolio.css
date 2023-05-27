@@ -8,6 +8,15 @@
   --main-font-color: #56734b;
 }
 
+.navbar {
+  background-color: var(--heading-color);
+}
+
+.nav-link,
+.active {
+  color: var(--main-font-color);
+}
+
 h1,
 h2,
 h3,
