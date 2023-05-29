@@ -133,6 +133,38 @@ a {
   color: var(--main-font-color);
 }
 
+footer {
+  background-color: var(--main-bg-color);
+}
+
+footer .email-link a {
+  font-size: 40px;
+  color: var(--main-font-color);
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+footer .email-link a:hover {
+  text-decoration: underline;
+}
+
+footer .social-links {
+  padding: 30px 150px;
+}
+footer .social-links a {
+  color: var(--main-font-color);
+  font-size: 28px;
+  background-color: var(--main-btn-color);
+  padding: 10px 20px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--main-font-color);
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0 10px;
@@ -170,5 +202,17 @@ a {
 
   .contact-links {
     padding: 50px 0px;
+  }
+
+  footer .email-link a {
+    font-size: 30px;
+  }
+
+  footer .social-links {
+    padding: 0px 20px;
+  }
+
+  footer .social-links a {
+    font-size: 20px;
   }
 }
