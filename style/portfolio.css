@@ -133,6 +133,14 @@ a {
   color: var(--main-font-color);
 }
 
+.contact-links a {
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
+}
+
 footer {
   background-color: var(--main-bg-color);
 }
@@ -163,6 +171,15 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background-color: var(--main-font-color);
+}
+
+footer .project-credit a {
+  color: var(--main-font-color);
+  text-decoration: none;
+}
+
+footer .project-credit a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 900px) {
